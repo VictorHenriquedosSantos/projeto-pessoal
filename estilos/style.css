@@ -21,7 +21,7 @@ header h1 {
     display: inline-block;
     font-size: 1.5em;
     padding: 10px;
-    color: #747F8C;
+    color: #F2F2F2;
     text-shadow: 2px 2px 8px #fafbfc2d;
 }
 
@@ -61,4 +61,67 @@ menu > ul > li > a {
     border: 2px solid black;
     border-radius: 5px;
     padding: 2px;
+}
+
+main {
+    background-color: #1E2D40;
+    padding: 20px;
+}
+
+div.imagem {
+    display: inline-block;
+    position: absolute;
+    background: url(../imagens/eu.jpg) center center no-repeat;
+    background-size: contain;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    left: 60%;
+    top: 25%;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.445);
+}
+
+.sobre h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    width: 40vw;
+    text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.418);
+}
+
+.sobre p {
+    width: 50vw;
+    padding-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.conteudo h2 {
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.418);
+}
+
+.conteudo p {
+    margin-top: 10px;
+    text-align: justify;
+    color: white;
+}
+
+div.icons {
+    display: block;
+    background-color: #747F8C;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+div.icons img {
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin: auto;
 }
