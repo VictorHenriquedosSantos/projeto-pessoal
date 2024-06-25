@@ -19,4 +19,18 @@
         top: 20%;
         left: 65%;
     }
+
+    div.icons {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+    }
+
+    div.icons img {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
 }
